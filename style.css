@@ -1,0 +1,1484 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first_page_bg{
+    width: 100%;
+    height: 950px;
+    background-image: url(images/Photo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.first_page{
+    
+    display: flex;
+    justify-content: center;
+}
+.container_header{
+    height: 100px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.menu{
+    display: flex;
+}
+.menu_ul{
+    display: flex;
+    
+
+}
+.menu_ul a{
+    text-decoration: none;
+}
+.menu_ul li{
+ 
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Montserrat";
+    list-style: none;
+    margin-left: 15px;
+    transition: 1s;
+    padding: 5px;
+   
+
+}
+#menu_card{
+    margin-right: 25px;
+}
+
+.menu_ul li:hover{
+    box-shadow: 0 0 10px rgb(255, 249, 249);
+    border: 1px solid white;
+  
+}
+#hover_none:hover{
+    box-shadow: 0 0 10px rgba(255, 249, 249, 0);
+    border: none;
+}
+#hover_none1:hover{
+    box-shadow: 0 0 10px rgba(255, 249, 249, 0);
+    border: none;
+}
+
+/* --------Menu hover part--------------- */
+
+.menu_hover{
+    position: absolute;
+    display: none;
+    top: 0;
+    right: 0;
+}
+
+.but_menu{
+    display: none;
+}
+.input_none_menu{
+    display: none;
+}
+.input_none_menu:checked ~ .menu_hover{
+    display: block;
+}
+
+
+
+
+
+
+
+.menu_hover{
+        
+    background-color: rgba(0, 0, 0, 0.699);
+}
+
+
+
+
+.menu_ul_hoevr{
+    display: flex;
+}
+.menu_ul_hover a{
+    text-decoration: none;
+}
+.menu_ul_hover li{
+ 
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Montserrat";
+    list-style: none;
+    margin-left: 15px;
+    transition: 1s;
+    padding: 5px;
+    width: 150px;
+    transition: 1s;
+   
+
+}
+.menu_ul_hover_end{
+    display: flex;
+    text-align: center;
+}
+.menu_ul_hover_end a{
+    text-decoration: none;
+    text-align: center;
+}
+.menu_ul_hover_end li{
+    list-style: none;
+    text-align: center;
+    margin-left: 15px;
+}
+.menu_ul_hover li:hover{
+    background-color: rgba(255, 255, 255, 0.897);
+    color: black;
+}
+
+
+.but_menu{
+    color: white;
+    font-size: 22px;
+}
+
+/* --------Menu hover part end--------------- */
+
+
+
+.page_one_main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 249px;
+}
+.main{
+    width: 1250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text_and_but{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text_and_but > h3{
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+.text_and_but > h1{
+    font-size: 52px;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: "Raleway";
+    text-align: center;
+    
+}
+.text_and_but > p{
+     max-width: 571px; 
+    height: 58px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.text_and_but button{
+    width: 170px;
+    height: 53px;
+    border-radius: 3px;
+    background-color: #988574;
+    font-size: 14px;
+    line-height: 23px;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: "Raleway";
+    text-align: center;
+}
+
+.arrow_media{
+    display: none;
+}
+
+
+.dot_parent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 249px;
+}
+.dot{
+    display: flex;
+    justify-content: center;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+ 
+    color: rgb(122, 120, 115);
+}
+.dot div{
+    width: 25px;
+}
+.dot i{
+    transition: .5s;
+    margin-left: 10px;
+}
+.dot i:hover{
+    transform: scale(1.2);
+    color: black;
+    border-radius: 50%;
+    border:2px solid gray;
+    width: 20px;
+    height: 20px;
+}
+
+/* page 2 start  */
+
+.page_2_parent{
+    display: flex;
+    justify-content: center;
+}
+.page_2{
+    max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.four_box{
+    display: flex;
+    text-align: center;
+}
+.four_part1{
+    display: flex;
+    
+}
+.four_part2{
+    display: flex;
+
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+    color: #555555;
+   
+}
+.mini_box i{
+    font-size: 40px;
+     /* color: #555555;  */
+}
+.mini_box h1{
+    font-size: 22px;
+    /* color: #555555; */
+    font-weight: 600;
+    font-family: "Raleway";
+    text-align: center;
+    margin-top: 20px;
+}
+.mini_box p{
+    max-width: 260px;
+    height: 67px;
+    font-size: 14px;
+    line-height: 24px;
+    /* color: #8c8c8c; */
+    font-weight: 300;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-top: 10px;
+}
+.mini_box_line{
+    width: 50px;
+    height: 2px;
+    background-color: black;
+    margin-top: 50px;
+}
+
+.box:hover{
+    color: burlywood;
+}
+#one{
+    color: #555555;
+}
+#one1{
+    color: #555555;
+}
+#one2{
+    color: #555555;
+}
+#one3{
+    color: #555555;
+}
+
+
+.slider_box{
+    margin-top: 100px;
+}
+.page_2_bg{
+    width: 100%;
+    background-image: url(images/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+.text{
+    max-width: 700px;
+    text-align: center;
+    padding-top: 50px;
+}
+.text h1{
+    font-size: 30px;
+    color: #555555;
+    font-weight: 600;
+    font-family: "Raleway";
+    text-align: center;
+}
+.text p{
+    margin-top: 30px;
+    height: 65px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #8c8c8c;
+    font-weight: 300;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.bg_line_brown{
+    background-image: url(images/Background\ _line.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brown_box{
+    width: 1050px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.no_copy:before{
+    content: 'Waxom ';
+    color: #c7b299;
+    
+}
+.no_copy{
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Raleway";
+    }
+.brown_L p{
+    font-size: 18px;
+    color: #615855;
+    font-weight: 300;
+    font-family: "Montserrat";
+}
+.brown_R button{
+    width: 170px;
+height: 50px;
+border-radius: 3px;
+background-color: #988574;
+font-size: 14px;
+line-height: 23px;
+color: #ffffff;
+font-weight: 800;
+font-family: "Raleway";
+text-align: center;
+}
+
+/* <!-- page 3 start --> */
+
+.page_3_text{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+.p3_text_and_category{
+    text-align: center;
+    margin-top: 100px;
+}
+.p3_text_and_category h1{
+    font-size: 30px;
+    color: #555555;
+    font-weight: 600;
+    font-family: "Raleway";
+    text-align: center;
+}
+.p3_text_and_category p{
+    max-width: 770px;
+    height: 65px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #8c8c8c;
+    font-weight: 300;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-top: 10px;
+}
+
+.category{
+    /* max-width: 600px; */
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.category_box button{
+    width: 120px;
+    height: 42px;
+    border: none;
+    font-size: 14px;
+    line-height: 21px;
+    color: #111111;
+    font-weight: 300;
+    font-family: "Montserrat";
+    text-align: center;
+    background: rgb(207, 203, 203);
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: 1s;
+    margin-top: 5px;
+}
+ .category_box button:hover {
+    background: rgb(85, 47, 47);
+    color: rgb(223, 223, 215);
+} 
+
+.page_3_gallery_part{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.page_3_gallery{
+
+    /* border: 1px solid black; */
+    display: flex;
+}
+.four_pics{
+    display: flex;
+}
+.two_pics{
+    display: flex;
+    flex-direction: column;
+}
+.up{
+    width: 349px;
+    height: 350px;
+    background-color: rgb(156, 157, 160);
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+    
+}
+.up img{
+    width: 100%;
+}
+
+.pic {
+ position: relative;
+}
+.pic > i{
+    position: absolute;
+     left: 20px;
+    bottom: -20px; 
+    font-size: 60px;
+   color:  rgb(156, 157, 160);
+  color:  rgb(27, 27, 26);
+  
+
+}
+.div_opasity{
+    width: 100%;
+    height: 223.5px;
+    background-color: rgba(0, 0, 0, 0.301);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 100px;
+    opacity: 0;
+
+}
+.div_opasity > span > i{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+}
+
+.up h1{
+   
+    height: 27px;
+    font-size: 20px;
+    color: #c7b299;
+    font-weight: 500;
+    font-family: "Raleway";
+    margin-top: 20px;
+}
+.up p{
+    font-size: 14px;
+line-height: 20px;
+color: #d1d1d1;
+font-weight: 300;
+font-family: "Montserrat";
+}
+
+
+.up:hover{
+    background-color: rgb(27, 27, 26);
+    color: rgb(0, 0, 0);
+}
+.pic i:hover{
+    color: rgb(27, 27, 26);
+}
+
+.div_opasity:hover{
+    opacity: 0.8;
+}
+
+.page_3_button_parent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.p3_but > form > button{
+    width: 170px;
+height: 50px;
+border-radius: 3px;
+background-color: #988574;
+font-size: 14px;
+line-height: 23px;
+color: #ffffff;
+font-weight: 800;
+font-family: "Raleway";
+text-align: center;
+}
+
+/* --------------------page 3 end */
+
+.page_4_big_bg{
+    width: 100%;
+    position: relative;
+}
+.page_4_big_bg img{
+    width: 100%;
+}
+.page_4_hover_text{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(5, 5, 5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  justify-content: center;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    color: white;
+    transition: 1s;
+    
+}
+.page_4_hover_text > h1{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Raleway";
+    text-align: center;
+}
+.page_4_hover_text > p{
+    max-width: 571px;
+    height: 58px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.play_div > img{
+    transition: 1s;
+    cursor: pointer;
+}
+.play_div > img:hover{
+    transform: scale(1.3);
+   
+}
+.page_4_hover_text:hover{
+    opacity: 0.5;
+}
+
+.phone_in_hand_part_parent{
+    width: 100%;
+    /* height: 700px; */
+    background-color: rgba(165, 158, 158, 0.349);
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+   
+}
+ .phone_in_hand_part_parent > .photo_iphone_and_hand{
+    margin-top: 88px;
+    margin-bottom: -4px;
+} 
+.ul_li_text_part{
+    margin-bottom: 50px;
+}
+.ul_li_text_part h1{
+    font-size: 30px;
+    color: #555555;
+    font-weight: 600;
+    font-family: "Raleway";
+}
+.ul_li_text_part > p{
+    max-width: 671px;
+height: 117px;
+font-size: 16px;
+line-height: 28px;
+color: #8c8c8c;
+font-weight: 300;
+font-family: "Montserrat";
+}
+.mini_ul_li_focus td{
+ width: 50px;
+    
+}
+
+.mini_ul_li_focus  th{
+    max-width: 571px;
+    height: 20px;
+    font-size: 16px;
+    line-height: 32px;
+    color: #8c8c8c;
+    font-weight: 300;
+    font-family: "Montserrat";  
+    padding-bottom: 3px;
+    text-align: start;
+    margin-left: 50px;
+   
+}
+.page_4_end_bg{
+    background-image: url(images/p4.png);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.center_box_bg{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1100px;
+}
+.box44{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    /* flex-wrap: wrap; */
+    transition: 1s;
+}
+.box44 h1{
+    font-size: 48px;
+    line-height: 36px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-top: 20px;
+}
+.box44 h2{
+   
+    height: 25px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #c7b299;
+    font-weight: 300;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-top: 16px;
+}
+
+.mini_line_p4{
+    width: 40px;
+    height: 2px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+.box44:hover{
+    transform: scale(1.1);
+    
+}
+
+/* <!------------------- start page 5 --> */
+
+.page_5_gal_parent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.page_5_gal{
+
+    display: flex;
+    justify-content: space-evenly;
+}
+.gallery_5{
+    width: 300px;
+    height: 360px;
+    background-color:rgb(218, 212, 212);
+    margin-right: 20px;
+    position: relative;
+}
+.gallery_5 h1{
+   
+    height: 34px;
+    font-size: 20px;
+    color: #d8cdcd;
+    font-weight: 500;
+    font-family: "Raleway";
+    padding: 0px 0 0 20px ;
+    margin-bottom: 10px;
+}
+.gallery_5 p{
+   
+    height: 42px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #8c8c8c;
+    font-weight: 300;
+    font-family: "Montserrat";
+    padding: 0px 0 0 20px ;
+    margin-bottom: 30px;
+}
+.gallery_5 a{
+    font-size: 14px;
+    line-height: 20px;
+    color: #c7b299;
+    font-weight: 300;
+    font-family: "Montserrat";
+    text-decoration: none;
+    padding: 10px 0 0 20px ;
+    margin-top: 20px;
+    
+}
+.gallery_5 img{
+    width: 100%;
+}
+.div_p_5_pix_fix{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.gallery_5:hover{
+    background-color:rgba(0, 0, 0, 0.63);
+    color: white;
+}
+.forgetik{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: burlywood;
+
+}
+.one_tow_arow{
+    cursor: pointer;
+}
+
+/* <!---------------------- start page 6 --> */
+
+.page_6_bg_parent{
+    margin-top: 50px;
+    background-image: url(images/6bg\ photo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page_6_big_box_center{
+    display: flex;
+    align-items: center;
+
+}
+.box_60{
+    width: 200px;
+    transition: 1s;
+    margin-left: 50px;
+}
+.box_60 img{
+    width: 100%;
+}
+.box_60:hover{
+    transform: scale(1.2);
+
+}
+.first_wrap{
+    display: flex;
+    align-items: center;
+}
+.second_wrap{
+    display: flex;
+    align-items: center;
+    
+}
+
+/* <!---------------------- end page 6 --> */
+
+.page_7_black_bg_parent{
+    background-image: url(images/black.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.div_82_pracnet{
+    width: 80%;
+    height: 400px;
+    /* border:1px solid white; */
+    display: flex;
+    justify-content: center;
+}
+
+.box_70{
+    /* border: 1px solid green; */
+    max-width: 50%;
+    padding: 8px;
+}
+.box_70 h1{
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+}
+.box_70 p{
+    max-width: 280px;
+  
+    font-size: 14px;
+    line-height: 24px;
+    color: #555555;
+    font-weight: 300;
+    font-family: "Montserrat";
+    margin-top: 10px;
+}
+.box_70 h2{
+    width: 270px;
+height: 45px;
+font-size: 14px;
+line-height: 20px;
+color: #c7b299;
+font-weight: 300;
+font-family: "Montserrat";
+}
+.mini_gray_line{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(131, 138, 131);
+    margin: 20px 0;
+}
+
+.box_70 a{
+    font-size: 14px;
+line-height: 20px;
+color: #d1d1d1;
+font-weight: 400;
+font-family: "Montserrat";
+text-decoration: none;
+}
+
+#first_box{
+    margin-top: -20px;
+}
+.box_70 span {
+    color: blue;
+}
+
+
+
+.mini_box_for_page_7{
+    display: flex;
+
+}
+.box77{
+    margin-left: 8px;
+    margin-top: 3px;
+}
+.wrap_70_first{
+    display: flex;
+}
+
+.wrap_70_second{
+    display: flex;
+}
+
+
+
+.for_footer{
+    background-image: url(images/footer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: honeydew;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.div_for_contact{
+    position: fixed;
+    top:25vh;
+    left: 0;
+    width: 50px;
+    height: 120px;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 22px;
+    /* background-color: rgb(163, 160, 160); */
+    
+
+}
+.one_c{
+   
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: 1s;
+
+
+}
+.one_c a{
+    color: rgb(143, 132, 132);
+    color: brown;
+}
+.one_M{
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    width: 100%;
+    text-align: center;
+}
+.one_M span{
+    font-size: 12px;
+    color: rgb(37, 34, 34);
+    cursor: pointer;
+}
+.checkbox_none{
+    display: none;
+}
+.checkbox_none:checked ~ .one_c{
+opacity: 1;
+}
+
+
+
+.upupup{
+    position: fixed;
+    top: 80vh;
+    right: 10px;
+    font-size: 35px;
+    color: gray;
+}
+.upupup a{
+    color: gray;
+    transition: 1s;
+}
+
+.upupup a:hover{
+   font-size: 45px;
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1150px){
+    .div_82_pracnet{
+        flex-direction: column;
+        align-items: center;
+    }
+    .page_7_black_bg_parent{
+        height: 900px;
+    }
+    .box_70{
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+    #first_box{
+        margin-top: 20px;
+    }
+} 
+
+
+
+@media screen and (max-width:1090px){
+    #one{
+        margin-bottom: 15px;
+    }
+    #one1{
+        margin-bottom: 15px;
+    }
+    #one2{
+        margin-bottom: 15px;
+    }
+    #one3{
+        margin-bottom: 15px;
+    }
+    .page_3_gallery{
+        flex-direction: column;
+    }
+    .two_pics{
+        flex-direction: row;
+
+    }
+    .mini_ul_li_focus{
+        margin-top: 30px;
+    }
+    .page_4_end_bg{
+        height: 450px;
+     
+    }
+    .gallery_5{
+        width: 280px;
+    }
+    .gallery_5 p{
+        font-size: 12px;
+    }
+    .first_wrap{
+        display: flex;
+        align-items: center;
+        /* flex-direction: column; */
+    }
+    .second_wrap{
+        display: flex;
+        align-items: center;
+        /* flex-direction: column; */
+    }
+  .page_6_big_box_center{
+      flex-direction: column;
+      justify-content: space-between;
+  }
+  .box_60{
+      padding: 20px;
+  }
+}
+
+
+
+
+
+
+
+@media screen and (max-width:950px){
+    .menu{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .menu_ul li{
+        width: 90px;
+        text-align: center;
+    }
+    #hover_none{
+        width: 30px;
+    }
+    #hover_none1{
+        width: 30px;
+        margin-right: 10px;
+    }
+    .four_box{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mini_ul_li_focus{
+        margin-top: 110px;
+    }
+    .ul_li_text_part p{
+       font-size: 14px;
+    }
+    
+    .center_box_bg{
+        justify-content: space-around;
+    }
+    .box44{
+        margin-top: 20px;
+    }
+    .page_5_gal{
+        flex-wrap: wrap;
+    }
+    .gallery_5{
+        margin-top: 15px;
+    }
+
+    .box_70 img{
+       width:100% ; 
+    }
+}
+
+
+
+
+
+@media screen and (max-width:750px){
+
+  
+    .menu{
+        display: none;
+        
+    }
+    .but_menu{
+        display: block;
+        margin-right: 240px;
+    }
+    .but_menu{
+        color: white;
+        font-size: 22px;
+    }
+    .main .arrow{
+        display: none;
+    }
+    .main{
+        justify-content: center;
+    }
+    .arrow_media{
+        display: block;
+        display: flex;
+        width: 150px;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    
+    .dot_parent{
+    margin-top: 170px;
+    }
+
+    .no_copy{
+        max-width: 300px;
+    }
+    .brown_R button{
+        margin-right: 10px;
+    }
+    .brown_L p{
+        max-width: 300px;
+    }
+    .four_pics{
+        flex-direction: column;
+    }
+    .two_pics{
+        flex-direction: column;
+    }
+
+
+    .page_4_hover_text > h1{
+     font-size: 20px;
+    }
+    .page_4_hover_text > p{
+     font-size: 12px;
+    }
+    .play_div > img{
+       width: 50px;
+    }
+
+    .phone_in_hand_part_parent{
+        flex-direction: column-reverse;
+    }
+    .ul_li_text_part{
+        margin: 8px;
+    }
+    .mini_ul_li_focus{
+        margin-top: 30px;
+    }
+    .page_4_end_bg{
+        height: 570px;
+     
+    }
+    .page_5_gal_parent{
+        margin-top: 50px;
+    }
+    .box_60{
+        width: 200px;
+        padding: 0;
+        margin: 20px;
+    }
+    .box_70 h1{
+        font-size:18px ;
+    }
+    .box_70 h2{
+        font-size:12px ;
+        width: 100%;
+    }
+    .box_70 p{
+        font-size:12px;
+    }
+    .box_70 h2{
+        font-size:12px ;
+    }
+    .mini_gray_line{
+        margin-top: 30px;
+    }
+    .page_7_black_bg_parent{
+        height: 1000px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:550px){
+    .dot_parent{
+    
+        margin-top: 130px;
+    }
+    .text_and_but button{
+        margin-top: 30px;
+    }
+    .text{
+        padding-top: 35px;
+    }
+    .mini_box h1{
+        font-size: 18px;
+    }
+    .mini_box p{
+        font-size: 14px;
+    }
+    .text h1{
+        font-size: 20px;
+    }
+    .text p{
+        font-size: 14px;
+    }
+
+    .no_copy{
+        font-size: 22px;
+        margin-left: 8px;
+        }
+    .brown_L p{
+        font-size: 14px;
+        margin-left: 8px;
+    }
+    .brown_R button{
+        width: 115px;
+    }
+    .mini_ul_li_focus{
+        margin-top: 47px;
+    }
+    .gallery_5{
+        margin-right: 0;
+    }
+    .box_60{
+        width: 150px;
+    }
+    .page_7_black_bg_parent{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:450px){
+    .container_header{
+        width: 410px;
+    }
+    .but_menu {
+        color: white;
+        font-size: 22px;
+        margin-right: 190px;
+    }
+    .logo img{
+        width: 100%;
+    }
+    .menu_ul_hover li{
+        width: 100px;
+    }
+    #one{
+        margin-bottom: 85px;
+    }
+    #one1{
+        margin-bottom: 85px;
+    }
+    #one2{
+        margin-bottom: 85px;
+    }
+    #one3{
+        margin-bottom: 85px;
+    }
+    .mini_box h1{
+        font-size: 16px;
+    }
+    .mini_box p{
+        font-size: 12px;
+    }
+    .text h1{
+        font-size: 18px;
+    }
+    .text p{
+        font-size: 12px;
+    }
+    .category{
+        margin-top: 45px;
+    }
+     .page_4_hover_text > h1{
+     font-size: 16px;
+    }
+    .page_4_hover_text > p{
+     font-size: 10px;
+     line-height: 15px;
+    }
+    .play_div > img{
+       width: 40px;
+    }
+
+    .mini_ul_li_focus{
+        margin-top: 75px;
+    }
+    .mini_ul_li_focus th{
+        font-size: 14px;
+    }
+    .photo_iphone_and_hand img{
+        width:300px ;
+    }
+    .box44{
+        width: 150px;
+    }
+    .box_60{
+        width: 110px;
+    }
+
+
+
+
+
+}
+
+@media screen and (max-width:400px){
+    .container_header{
+        width: 410px;
+    }
+    .but_menu {
+        margin-right: 170px;
+    }
+    .logo {
+        width: 130px;
+        margin-left: 8px;
+    }
+    .arrow_media{
+        margin-top: 30px;
+    }
+    .text_and_but button{
+        margin-top: 50px;
+    }
+    .dot_parent{
+        margin-top: 85px;
+    }
+    .category{
+        margin-top: 55px;
+    }
+
+    .up{
+        width: 310px;
+         margin: 10px 0; 
+    }
+    .mini_ul_li_focus{
+        margin-top: 95px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
